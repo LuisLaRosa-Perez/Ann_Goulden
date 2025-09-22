@@ -84,12 +84,17 @@ export const features: Feature[] = [
     media: [
       {
         type: "image",
-        url: "/imagen4.jpeg",
+        url: "/imagen7.jpeg",
         caption: "Entorno natural y saludable"
       },
       {
         type: "image",
-        url: "/imagen5.jpeg",
+        url: "/imagen8.jpeg",
+        caption: "Compartimos momentos"
+      },
+      {
+        type: "image",
+        url: "/imagen9.jpeg",
         caption: "Compartimos momentos"
       },
       
