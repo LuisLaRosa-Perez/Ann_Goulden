@@ -40,7 +40,7 @@ const Hero02 = () => {
             </Button>
           </div>
         </div>
-        <div className="relative w-full max-h-[450px]">
+        <div className="relative w-full min-h-[300px] max-h-[450px]">
           <Image src="/imagen1.jpeg" alt="Hero Image" fill className="object-cover rounded-xl" />
         </div>
       </div>
