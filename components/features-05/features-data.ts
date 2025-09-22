@@ -89,14 +89,10 @@ export const features: Feature[] = [
       },
       {
         type: "image",
-        url: "/imagen7.jpeg",
+        url: "/imagen5.jpeg",
         caption: "Compartimos momentos"
       },
-      {
-        type: "image",
-        url: "/imagen9.jpeg",
-        caption: "Compañerismo y aprendizaje"
-      }
+      
     ],
   },
   {
