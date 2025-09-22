@@ -15,6 +15,7 @@ export interface AnimatedGridPatternProps
   numSquares?: number;
   maxOpacity?: number;
   duration?: number;
+  className?: string;
 }
 
 export function AnimatedGridPattern({
