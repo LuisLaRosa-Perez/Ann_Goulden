@@ -50,6 +50,20 @@ export function AnimatedGridPattern({
 
   const [squares, setSquares] = useState(() => generateSquares(numSquares));
 
+  // Function to update a single square's position
+  const updateSquarePosition = useCallback((id: number) => {
+    setSquares((currentSquares) =>
+      currentSquares.map((sq) =>
+        sq.id === id
+          ? {
+              ...sq,
+              pos: getPos(),
+            }
+          : sq
+      )
+    );
+  }, [setSquares, getPos]);
+
   // Update squares to animate in
   useEffect(() => {
     if (dimensions.width && dimensions.height) {
