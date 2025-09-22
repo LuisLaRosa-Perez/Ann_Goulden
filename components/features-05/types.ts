@@ -1,3 +1,5 @@
+import type { ComponentType } from 'react';
+
 export interface MediaItem {
   type: "image" | "video";
   url: string;
@@ -5,7 +7,7 @@ export interface MediaItem {
 }
 
 export interface Feature {
-  icon: any;
+  icon: ComponentType;
   title: string;
   description: string;
   media: MediaItem[];
