@@ -20,7 +20,7 @@ export default function Home() {
         <CTABanner />
         <Footer />
       </main>
-      <Analytics /> {/* <---- aquí lo agregas */}
+      <Analytics /> 
     </>
   );
 }
