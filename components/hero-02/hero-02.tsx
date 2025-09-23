@@ -54,7 +54,7 @@ const Hero02 = () => {
               </DialogTrigger>
               <DialogContent className="sm:max-w-[800px] p-0 overflow-hidden">
                 <DialogHeader className="text-center py-4 justify-center">
-                  <DialogTitle className="text-2xl font-bold text-center mx-auto">Conoce Nuestra Propuesta Educativa</DialogTitle>
+                  <DialogTitle className="text-2xl font-bold text-center mx-auto">Conoce Nuestra Historia</DialogTitle>
                 </DialogHeader>
                 {isOpen && (
                   <div className="relative pt-[56.25%]">
