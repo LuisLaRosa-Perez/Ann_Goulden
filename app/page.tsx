@@ -4,6 +4,7 @@ import Features05 from "@/components/features-05/features-05";
 import Footer from "@/components/footer";
 import Hero02 from "@/components/hero-02/hero-02";
 import { Navbar } from "@/components/navbar";
+import { Analytics } from "@vercel/analytics/next"
 
 import Testimonials from "@/components/testimonials";
 

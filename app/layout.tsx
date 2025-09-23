@@ -9,49 +9,44 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "I.E Ann Goulden",
+  title: "I.E. Ann Goulden - Piura",
   description:
-    "A beautiful landing page built with Shadcn UI, Next.js 15, Tailwind CSS, and Shadcn UI Blocks.",
+    "Plataforma web oficial de la Institución Educativa Ann Goulden, diseñada con Next.js 15, Tailwind CSS y Shadcn UI para impulsar la innovación educativa en Piura.",
   keywords: [
-    "PureLanding",
-    "PureLanding Landing Page",
-    "PureLanding Landing Page Template",
-    "PureLanding Page",
-    "Shadcn UI Landing Page",
-    "Shadcn UI Blocks",
+    "I.E. Ann Goulden",
+    "Colegio Ann Goulden",
+    "Educación Piura",
+    "Plataforma Educativa",
+    "Gestión Administrativa Escolar",
+    "Landing Page Colegio",
     "Shadcn UI",
-    "Landing Page",
-    "Tailwind CSS Landing Page",
-    "Beautiful Shadcn UI Landing Page",
-    "Next.js 15 Landing Page",
-    "Simple Landing Page",
-    "Landing Page Template",
-    "Landing Page Design",
+    "Next.js",
+    "Tailwind CSS",
   ],
   openGraph: {
     type: "website",
-    siteName: "PureLanding",
-    locale: "en_ES",
-    url: "https://shadcn-landing-page.vercel.app",
-    title: "PureLanding - Beautiful Shadcn UI Landing Page",
+    siteName: "I.E. Ann Goulden",
+    locale: "es_PE",
+    url: "https://www.ann-goulden.edu.pe",
+    title: "I.E. Ann Goulden - Innovación Educativa en Piura",
     description:
-      "A beautiful landing page built with Shadcn UI, Next.js 15, Tailwind CSS, and Shadcn UI Blocks.",
+      "Página oficial de la Institución Educativa Ann Goulden, con información sobre nuestra propuesta educativa, docentes y contacto.",
     images: [
       {
         url: "/logo_colegio.png",
         width: 1200,
         height: 630,
-        alt: "PureLanding Preview",
+        alt: "Logo I.E. Ann Goulden",
       },
     ],
   },
   authors: [
     {
-      name: "Akash Moradiya",
-      url: "https://shadcnui-blocks.com",
+      name: "Equipo de Desarrollo Ann Goulden",
+      url: "https://www.ann-goulden.edu.pe",
     },
   ],
-  creator: "Akash Moradiya",
+  creator: "Institución Educativa Ann Goulden",
   icons: [
     {
       rel: "icon",
@@ -71,7 +66,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="es" suppressHydrationWarning>
       <body className={`${geistSans.className} antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <TooltipProvider>{children}</TooltipProvider>
