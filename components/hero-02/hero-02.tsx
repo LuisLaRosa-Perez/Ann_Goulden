@@ -1,11 +1,22 @@
+"use client";
+
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ArrowUpRight, CirclePlay } from "lucide-react";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
+import {
+  Dialog,
+  DialogContent,
+  DialogTrigger,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
 
 const Hero02 = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div className="justify-center">
       <div className="max-w-(--breakpoint-xl) w-full mx-auto grid lg:grid-cols-2 gap-12 px-6 py-12">
@@ -31,13 +42,33 @@ const Hero02 = () => {
             <Button size="lg" className="rounded-full text-base">
               Comenzar <ArrowUpRight className="h-5! w-5!" />
             </Button>
-            <Button
-              variant="outline"
-              size="lg"
-              className="rounded-full text-base shadow-none"
-            >
-              <CirclePlay className="h-5! w-5!" /> Ver Demostración
-            </Button>
+            <Dialog open={isOpen} onOpenChange={setIsOpen}>
+              <DialogTrigger asChild>
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="rounded-full text-base shadow-none"
+                >
+                  <CirclePlay className="h-5! w-5!" /> Conocenos
+                </Button>
+              </DialogTrigger>
+              <DialogContent className="sm:max-w-[800px] p-0 overflow-hidden">
+                <DialogHeader className="text-center py-4 justify-center">
+                  <DialogTitle className="text-2xl font-bold text-center mx-auto">Conoce Nuestra Propuesta Educativa</DialogTitle>
+                </DialogHeader>
+                {isOpen && (
+                  <div className="relative pt-[56.25%]">
+                    <iframe
+                      src="https://drive.google.com/file/d/1xgW45o8zFe6vUOOpJfHkQZiuMGGOfdwA/preview"
+                      width="100%"
+                      height="100%"
+                      allow="autoplay"
+                      className="absolute top-0 left-0 w-full h-full"
+                    ></iframe>
+                  </div>
+                )}
+              </DialogContent>
+            </Dialog>
           </div>
         </div>
         <div className="relative w-full min-h-[300px] max-h-[450px]">

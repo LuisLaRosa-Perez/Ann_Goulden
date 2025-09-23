@@ -195,6 +195,7 @@ export const features: Feature[] = [
         caption: "Celebración del día del maestro"
       },
       
+      
     ],
   },
 
