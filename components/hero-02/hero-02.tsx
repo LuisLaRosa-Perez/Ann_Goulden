@@ -59,7 +59,7 @@ const Hero02 = () => {
                 {isOpen && (
                   <div className="relative pt-[56.25%]">
                     <iframe
-                      src="https://drive.google.com/file/d/1xgW45o8zFe6vUOOpJfHkQZiuMGGOfdwA/preview"
+                      src="https://drive.google.com/file/d/1wWNvQzglmVhGxJgUmZ-XRytWESQwcc4i/preview"
                       width="100%"
                       height="100%"
                       allow="autoplay"
@@ -71,9 +71,16 @@ const Hero02 = () => {
             </Dialog>
           </div>
         </div>
-        <div className="relative w-full min-h-[300px] max-h-[450px]">
-          <Image src="/imagen1.jpeg" alt="Hero Image" fill className="object-cover rounded-xl" />
-        </div>
+        <div className="relative w-full aspect-[16/9] flex justify-center items-center bg-white">
+  <Image 
+    src="/hero_Section.png" 
+    alt="Hero Image" 
+    fill 
+    className="object-contain rounded-xl" 
+    priority
+  />
+</div>
+
       </div>
     </div>
   );
