@@ -1,4 +1,3 @@
-
 import {
   School,
   Trees,
@@ -22,58 +21,58 @@ export const features: Feature[] = [
       {
         type: "image",
         url: "/apertura/5.jpg",
-        caption: "Instalaciones modernas"
+        caption: "Instalaciones modernas",
       },
       {
         type: "image",
         url: "/apertura/1.jpg",
-        caption: "Vista principal de oportunidades"
+        caption: "Vista principal de oportunidades",
       },
       {
         type: "video",
         url: "/apertura/video1.mp4",
-        caption: "Video de presentación"
+        caption: "Video de presentación",
       },
       {
         type: "image",
         url: "/apertura/2.jpg",
-        caption: "Análisis de mercado"
+        caption: "Análisis de mercado",
       },
       {
         type: "image",
         url: "/apertura/3.jpg",
-        caption: "Estrategias de crecimiento"
+        caption: "Estrategias de crecimiento",
       },
       {
         type: "video",
         url: "/apertura/video2.mp4",
-        caption: "Video de presentación"
+        caption: "Video de presentación",
       },
       {
         type: "image",
         url: "/apertura/4.jpg",
-        caption: "Compromiso con la excelencia"
+        caption: "Compromiso con la excelencia",
       },
       {
         type: "image",
         url: "/apertura/6.jpg",
-        caption: "Equipo docente comprometido"
+        caption: "Equipo docente comprometido",
       },
       {
         type: "image",
         url: "/apertura/7.jpg",
-        caption: "Ambiente de aprendizaje"
+        caption: "Ambiente de aprendizaje",
       },
       {
         type: "image",
         url: "/apertura/8.jpg",
-        caption: "Actividades extracurriculares"
+        caption: "Actividades extracurriculares",
       },
       {
         type: "image",
         url: "/apertura/9.jpg",
-        caption: "Futuro brillante"
-      }
+        caption: "Futuro brillante",
+      },
     ],
   },
   {
@@ -85,19 +84,18 @@ export const features: Feature[] = [
       {
         type: "image",
         url: "/imagen7areas_verdes.jpeg",
-        caption: "Entorno natural y saludable"
+        caption: "Entorno natural y saludable",
       },
       {
         type: "image",
         url: "/imagen8.jpeg",
-        caption: "Compartimos momentos"
+        caption: "Compartimos momentos",
       },
       {
         type: "image",
         url: "/imagen9.jpeg",
-        caption: "Compartimos momentos"
+        caption: "Compartimos momentos",
       },
-      
     ],
   },
   {
@@ -109,28 +107,28 @@ export const features: Feature[] = [
       {
         type: "image",
         url: "/conciencia/1.jpg",
-        caption: "Taller de concienciación"
+        caption: "Taller de concienciación",
       },
       {
         type: "image",
         url: "/conciencia/2.jpg",
-        caption: "Uso responsable del plástico"
+        caption: "Uso responsable del plástico",
       },
       {
         type: "image",
         url: "/conciencia/3.jpg",
-        caption: "Aprendiendo con entusiasmo"
+        caption: "Aprendiendo con entusiasmo",
       },
       {
         type: "image",
         url: "/conciencia/4.jpg",
-        caption: "Acompañamiento directivo"
+        caption: "Acompañamiento directivo",
       },
       {
         type: "image",
         url: "/conciencia/5.jpg",
-        caption: "Educación ambiental"
-      }
+        caption: "Educación ambiental",
+      },
     ],
   },
 
@@ -143,43 +141,43 @@ export const features: Feature[] = [
       {
         type: "image",
         url: "/diapadre/1.jpg",
-        caption: "Presentación del evento"
+        caption: "Presentación del evento",
       },
       {
         type: "image",
         url: "/diapadre/2.jpg",
-        caption: "Celebración con la familia"
+        caption: "Celebración con la familia",
       },
       {
         type: "image",
         url: "/diapadre/3.jpg",
-        caption: "Momentos inolvidables"
+        caption: "Momentos inolvidables",
       },
       {
         type: "image",
         url: "/diapadre/4.jpg",
-        caption: "Diversión y alegría"
+        caption: "Diversión y alegría",
       },
       {
         type: "image",
         url: "/diapadre/5.jpg",
-        caption: "Regalos especiales"
+        caption: "Regalos especiales",
       },
       {
         type: "image",
         url: "/diapadre/6.jpg",
-        caption: "Un día para recordar"
+        caption: "Un día para recordar",
       },
       {
         type: "image",
         url: "/diapadre/7.jpg",
-        caption: "Sonrisas y felicidad"
+        caption: "Sonrisas y felicidad",
       },
       {
         type: "image",
         url: "/diapadre/8.jpg",
-        caption: "Unidos en familia"
-      }
+        caption: "Unidos en familia",
+      },
     ],
   },
 
@@ -192,10 +190,8 @@ export const features: Feature[] = [
       {
         type: "image",
         url: "/D6.jpg",
-        caption: "Celebración del día del maestro"
+        caption: "Celebración del día del maestro",
       },
-      
-      
     ],
   },
 
@@ -208,53 +204,53 @@ export const features: Feature[] = [
       {
         type: "image",
         url: "/diamadre/1.jpg",
-        caption: "Dirección del evento"
+        caption: "Dirección del evento",
       },
       {
         type: "image",
         url: "/diamadre/2.jpg",
-        caption: "Regalos para mamá"
+        caption: "Regalos para mamá",
       },
       {
         type: "image",
         url: "/diamadre/3.jpg",
-        caption: "Actividades para mamá"
+        caption: "Actividades para mamá",
       },
       {
         type: "image",
         url: "/diamadre/4.jpg",
-        caption: "Diversión y alegría"
+        caption: "Diversión y alegría",
       },
       {
         type: "image",
         url: "/diamadre/5.jpg",
-        caption: "Celebración especial"
+        caption: "Celebración especial",
       },
       {
         type: "image",
         url: "/diamadre/6.jpg",
-        caption: "Bailes y sonrisas"
+        caption: "Bailes y sonrisas",
       },
       {
         type: "image",
         url: "/diamadre/7.jpg",
-        caption: "Baile y música"
+        caption: "Baile y música",
       },
       {
         type: "image",
         url: "/diamadre/8.jpg",
-        caption: "Feliz día mamá"
+        caption: "Feliz día mamá",
       },
       {
         type: "image",
         url: "/diamadre/9.jpg",
-        caption: "Unidos en familia"
+        caption: "Unidos en familia",
       },
       {
         type: "image",
         url: "/diamadre/10.jpg",
-        caption: "Celebración mamá docente"
-      }
+        caption: "Celebración mamá docente",
+      },
     ],
   },
 
@@ -267,38 +263,38 @@ export const features: Feature[] = [
       {
         type: "image",
         url: "/clausura/1.jpg",
-        caption: "Celebración del día del estudiante"
+        caption: "Celebración del día del estudiante",
       },
       {
         type: "image",
         url: "/clausura/2.jpg",
-        caption: "Diversión y juegos"
+        caption: "Diversión y juegos",
       },
       {
         type: "video",
         url: "/clausura/video3.mp4",
-        caption: "Sonrisas y alegría"
+        caption: "Sonrisas y alegría",
       },
       {
         type: "image",
         url: "/clausura/3.jpg",
-        caption: "Actividades recreativas"
+        caption: "Actividades recreativas",
       },
       {
         type: "image",
         url: "/clausura/4.jpg",
-        caption: "Momentos inolvidables"
+        caption: "Momentos inolvidables",
       },
       {
         type: "video",
         url: "/clausura/video2.mp4",
-        caption: "Sonrisas y alegría"
+        caption: "Sonrisas y alegría",
       },
       {
         type: "video",
         url: "/clausura/video1.mp4",
-        caption: "Sonrisas y alegría"
-      }
+        caption: "Sonrisas y alegría",
+      },
     ],
   },
 
@@ -311,18 +307,18 @@ export const features: Feature[] = [
       {
         type: "image",
         url: "/municipio/1.jpg",
-        caption: "Presentación de propuestas"
+        caption: "Presentación de propuestas",
       },
       {
         type: "image",
         url: "/municipio/2.jpg",
-        caption: "Diplomas de reconocimiento"
+        caption: "Diplomas de reconocimiento",
       },
       {
         type: "image",
         url: "/municipio/3.jpg",
-        caption: "Debate estudiantil"
-      }
+        caption: "Debate estudiantil",
+      },
     ],
   },
   {
@@ -334,38 +330,38 @@ export const features: Feature[] = [
       {
         type: "image",
         url: "/navidad/1.jpg",
-        caption: "Navidad en la institución"
+        caption: "Navidad en la institución",
       },
       {
         type: "image",
         url: "/navidad/2.jpg",
-        caption: "Celebración navideña"
+        caption: "Celebración navideña",
       },
       {
         type: "image",
         url: "/navidad/3.jpg",
-        caption: "Compartiendo alegría"
+        caption: "Compartiendo alegría",
       },
       {
         type: "image",
         url: "/navidad/4.jpg",
-        caption: "Equipo unido"
+        caption: "Equipo unido",
       },
       {
         type: "image",
         url: "/navidad/5.jpg",
-        caption: "Momentos especiales"
+        caption: "Momentos especiales",
       },
       {
         type: "image",
         url: "/navidad/6.jpg",
-        caption: "Espíritu navideño"
+        caption: "Espíritu navideño",
       },
       {
         type: "image",
         url: "/navidad/7.jpg",
-        caption: "Agradecimiento y unión"
-      }
+        caption: "Agradecimiento y unión",
+      },
     ],
   },
 ];

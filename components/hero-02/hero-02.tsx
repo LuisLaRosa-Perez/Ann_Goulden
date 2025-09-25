@@ -71,16 +71,15 @@ const Hero02 = () => {
             </Dialog>
           </div>
         </div>
-        <div className="relative w-full aspect-[16/9] flex justify-center items-center bg-white">
+        <div className="relative w-full aspect-[16/9] flex justify-center items-center bg-white rounded-xl overflow-hidden">
   <Image 
     src="/hero_Section.png" 
     alt="Hero Image" 
     fill 
-    className="object-contain rounded-xl" 
+    className="object-contain" 
     priority
   />
 </div>
-
       </div>
     </div>
   );
