@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     siteName: "I.E. Ann Goulden",
     locale: "es_PE",
     url: "https://www.anngoulden.org",
-    title: "I.E. Ann Goulden - Colegio Primaria en Piura",
+    title: "I.E. Ann Goulden ",
     description:
       "Página oficial de la Institución Educativa Ann Goulden, con información sobre nuestra propuesta educativa, docentes y contacto.",
     images: [
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     
-    title: "I.E. Ann Goulden - Colegio Primaria en Piura",
+    title: "I.E. Ann Goulden -",
     description:
       "Educación de calidad y desarrollo integral de tus hijos en la I.E. Ann Goulden, Piura.",
     images: ["/logo_colegio.png"],
