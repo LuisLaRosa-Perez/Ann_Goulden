@@ -9,7 +9,7 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "I.E. Ann Goulden - Colegio Primaria en Piura",
+  title: "I.E. Ann Goulden",
   description:
     "Descubre la Institución Educativa Ann Goulden en Piura: educación de calidad, actividades extracurriculares y desarrollo integral de tus hijos.",
   keywords: [
