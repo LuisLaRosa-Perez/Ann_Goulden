@@ -9,7 +9,7 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "I.E. Ann Goulden - Piura",
+  title: "I.E. Ann Goulden",
   description:
     "Plataforma web oficial de la Institución Educativa Ann Goulden, diseñada con Next.js 15, Tailwind CSS y Shadcn UI para impulsar la innovación educativa en Piura.",
   keywords: [
