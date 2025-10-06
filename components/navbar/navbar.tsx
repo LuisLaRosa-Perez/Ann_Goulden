@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button"; 
 import { Logo } from "./logo";
 import { NavMenu } from "./nav-menu";
 import { NavigationSheet } from "./navigation-sheet";
@@ -16,7 +16,12 @@ const Navbar = () => {
         <div className="flex items-center gap-3">
           <ThemeToggle />
           
-          <Button className="hidden xs:inline-flex">Ingresar</Button>
+          <a
+  href="https://sistema-colegio.anngoulden.org/admin/login"
+  className={buttonVariants({ variant: "outline" })}
+>
+  Ingresar
+</a>
 
           {/* Mobile Menu */}
           <div className="md:hidden">
@@ -29,3 +34,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
