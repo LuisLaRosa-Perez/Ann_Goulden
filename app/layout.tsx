@@ -9,9 +9,9 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "I.E. Ann Goulden - Piura",
+  title: "I.E. Ann Goulden",
   description:
-    "Plataforma web oficial de la Institución Educativa Ann Goulden, diseñada con Next.js 15, Tailwind CSS y Shadcn UI para impulsar la innovación educativa en Piura.",
+    "Descubre la Institución Educativa Ann Goulden en Piura: educación de calidad, actividades extracurriculares y desarrollo integral de tus hijos.",
   keywords: [
     "I.E. Ann Goulden",
     "Colegio Ann Goulden",
@@ -27,8 +27,8 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "I.E. Ann Goulden",
     locale: "es_PE",
-    url: "https://www.ann-goulden.edu.pe",
-    title: "I.E. Ann Goulden - Innovación Educativa en Piura",
+    url: "https://www.anngoulden.org",
+    title: "I.E. Ann Goulden ",
     description:
       "Página oficial de la Institución Educativa Ann Goulden, con información sobre nuestra propuesta educativa, docentes y contacto.",
     images: [
@@ -40,10 +40,18 @@ export const metadata: Metadata = {
       },
     ],
   },
+  twitter: {
+    card: "summary_large_image",
+    
+    title: "I.E. Ann Goulden -",
+    description:
+      "Educación de calidad y desarrollo integral de tus hijos en la I.E. Ann Goulden, Piura.",
+    images: ["/logo_colegio.png"],
+  },
   authors: [
     {
       name: "Equipo de Desarrollo Ann Goulden",
-      url: "https://www.ann-goulden.edu.pe",
+      url: "https://www.anngoulden.org",
     },
   ],
   creator: "Institución Educativa Ann Goulden",
