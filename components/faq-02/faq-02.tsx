@@ -9,12 +9,12 @@ const faq = [
   {
     question: "¿Qué niveles educativos ofrece la institución?",
     answer:
-      "La Institución Educativa Ann Goulden brinda educación inicial para niños y niñas de 3, 4 y 5 años bajo la modalidad de Educación Básica Regular.",
+      "La Institución Educativa Ann Goulden brinda educación inicial y primaria en la modalidad de Educación Básica Regular, ofreciendo una formación integral que promueve el desarrollo académico, personal y social de los estudiantes",
   },
   {
     question: "¿Cuál es el promedio de estudiantes por aula?",
     answer:
-      "Cada aula cuenta con un promedio de 26 estudiantes, lo que permite un acompañamiento cercano y un ambiente de aprendizaje adecuado.",
+      "Cada aula de nivel inicial cuenta con un promedio de 25 estudiantes, mientras que en el nivel primaria el promedio es de 36. Esta organización permite brindar un acompañamiento cercano a los alumnos y mantener un ambiente de aprendizaje participativo y adecuado para su desarrollo integral.",
   },
   {
     question: "¿Qué turnos están disponibles?",
@@ -24,7 +24,7 @@ const faq = [
   {
     question: "¿Dónde está ubicada la institución?",
     answer:
-      "Nos encontramos en la Avenida Integración S/N, distrito de Piura, provincia y departamento de Piura.",
+      "Nos encontramos en la Av. Don Bosco, código Q9WC+MHV, en el distrito de Piura, provincia y departamento de Piura (20001).",
   },
   {
     question: "¿Qué enfoque pedagógico utilizan?",
