@@ -39,9 +39,11 @@ const Hero02 = () => {
             estudiante a alcanzar su máximo potencial.
           </p>
           <div className="mt-12 flex items-center gap-4">
-            <Button size="lg" className="rounded-full text-base">
-              Comenzar <ArrowUpRight className="h-5! w-5!" />
-            </Button>
+            <Link href="https://sistema-colegio.anngoulden.org/padres" target="_blank">
+              <Button size="lg" className="rounded-full text-base">
+                Portal de Padres <ArrowUpRight className="h-5! w-5!" />
+              </Button>
+            </Link>
             <Dialog open={isOpen} onOpenChange={setIsOpen}>
               <DialogTrigger asChild>
                 <Button
@@ -71,12 +73,12 @@ const Hero02 = () => {
             </Dialog>
           </div>
         </div>
-        <div className="relative w-full aspect-[16/9] flex justify-center items-center bg-white rounded-xl overflow-hidden">
+        <div className="relative w-full aspect-[16/9] flex justify-center items-center rounded-xl overflow-hidden">
   <Image 
-    src="/hero_Section.png" 
+    src="/hero_Section.jpeg" 
     alt="Hero Image" 
     fill 
-    className="object-contain" 
+    className="object-cover" 
     priority
   />
 </div>
